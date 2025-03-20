@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardBackgroundColor="#333333"
+    app:cardCornerRadius="20dp">
+
+
+
+<LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#E9DCFD"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/edtTitle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColorHint="@color/black"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:textSize="25sp"
+            android:layout_margin="5dp">
+        </EditText>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#E9DCFD"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+
+        <EditText
+            android:id="@+id/edtContent"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your note...."
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textColorHint="@color/black"
+            android:minLines="7"
+            android:gravity="top|start"
+            android:layout_margin="5dp">
+        </EditText>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAdd"
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Add"
+        android:textColor="@color/black"
+        android:backgroundTint="#E9DCFD"
+        android:layout_gravity="center"
+
+        />
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
