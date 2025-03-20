@@ -7,11 +7,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#333333"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+            app:title="Notes"
+            app:titleTextColor="#E9DCFD">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="?attr/actionBarSize"
 
         android:id="@+id/recycleList">
 
@@ -58,7 +75,7 @@
         android:layout_margin="50dp"
         android:src="@drawable/baseline_add_24"
         android:contentDescription="@string/floatingbutton"
-        android:backgroundTint="#333333"
+        android:backgroundTint="#807A7A"
 
         android:id="@+id/addFloat">
 
