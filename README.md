@@ -30,4 +30,4 @@ focusing on building a practical app that uses Room for local storage and databa
 ## 🔗 Installation
 1. Clone this repository  
    ```bash
-   git clone [https://github.com/your-username/MyNotes.git](https://github.com/Ayushh2609/MyNotes)
+   git clone [https://github.com/Ayushh2609/MyNotes]
